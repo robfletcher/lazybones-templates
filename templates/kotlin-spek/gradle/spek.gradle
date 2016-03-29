@@ -1,0 +1,9 @@
+repositories {
+  maven {
+    url "http://repository.jetbrains.com/all"
+  }
+}
+
+dependencies {
+  testCompile "org.jetbrains.spek:spek:1.0.0"
+}

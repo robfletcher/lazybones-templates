@@ -1,0 +1,7 @@
+repositories {
+  jcenter()
+}
+
+dependencies {
+  compile "com.nhaarman:mockito-kotlin:0.3.1"
+}

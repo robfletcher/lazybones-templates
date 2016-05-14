@@ -5,3 +5,13 @@ repositories {
 dependencies {
   compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
+
+configurations.all {
+  resolutionStrategy {
+    eachDependency {
+      if (it.requested.group == "org.jetbrains.kotlin") {
+        it.useVersion kotlin_version
+      }
+    }
+  }
+}

@@ -5,5 +5,5 @@ repositories {
 }
 
 dependencies {
-  testCompile "org.jetbrains.spek:spek:1.0.0"
+  testCompile "org.jetbrains.spek:spek:1.0.9"
 }
